@@ -8,6 +8,7 @@ authors:
     given-names: "Matthias"
     orcid: "https://orcid.org/0009-0006-3640-7779"
 version: "0.1.0-review.1"
+date-released: "2026-10-27"
 abstract: "An Excel simulator and reproducible research model for the economics of AI-agent controls."
 keywords:
   - "security-economics"
