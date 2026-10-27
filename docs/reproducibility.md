@@ -71,11 +71,20 @@ The continuous optimizer scans for derivative sign changes on `[0,10]` at spacin
 
 ## Source identity and provenance
 
-The source files were renamed for portable repository paths but their bytes were preserved:
+The original source files were renamed for portable repository paths. Their original SHA-256 identities were:
 
-| Repository file | SHA-256 |
+| Original source | SHA-256 |
 | --- | --- |
 | `paper/GL-Agent-Paper.docx` | `2ea7c5aac5a03345edb46e8cad93ebba970dbebadf7bc9fb5f4b784ac58d2a0d` |
 | `workbooks/GL-Agent-Simulator.xlsx` | `a6505a6ef47b5c25f561c9550a1ba6ba2614bd149e1a1bf3cfc08bf510cd5dbd` |
+
+The public copies were metadata-cleaned on 27 October 2026. Their current identities are:
+
+| Public repository file | SHA-256 |
+| --- | --- |
+| `paper/GL-Agent-Paper.docx` | `f20669b44e26f03c0bc0bef94799475d725920e9a9ab51043dcfe8dc86f1678d` |
+| `workbooks/GL-Agent-Simulator.xlsx` | `b957da960ee9940291728e5d3a7045a5af510dd8705393709656870452f18f9e` |
+
+Document properties and absolute local paths were removed and the Public sensitivity labels were retained. Main document text, all three media files, simulator formulas and saved cell values match the original sources. The manuscript header and page-number footers were restored after Office cleanup removed them. Original hashes remain recorded for provenance in `validation/manifest.json`.
 
 The manuscript describes an earlier supplement with 24 checks and 37,048 comparisons. This reconstructed package has a different implementation and coverage. Its results must be identified separately. Checksums establish file identity, not scientific validity. The earlier supplement DOI `10.5281/zenodo.22656510` was confirmed on 26 October 2026; its listed files differ from this package. No DOI is assigned to this reconstructed release. Use a new deposit version for a superseding artifact set or cite the earlier DOI only as related material.
