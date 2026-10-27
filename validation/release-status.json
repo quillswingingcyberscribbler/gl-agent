@@ -1,0 +1,20 @@
+{
+  "package_status": "reviewed-prerelease",
+  "package_version": "0.1.0-review.1",
+  "source_versions": "Supplied manuscript v1.0, 7 September 2026; accompanying simulator",
+  "stable_release_ready": false,
+  "native_excel_verified": false,
+  "licensing_confirmed": true,
+  "workbook_changes_applied": false,
+  "blockers": [
+    "Legacy cell Notes contradict the revised manuscript.",
+    "Input health can report VALID for missing or nonnumeric inputs.",
+    "Dashboard drawings and chart legends fail in independent rendering.",
+    "Original supplement and deposit identity must be distinguished from the independent reconstruction."
+  ],
+  "repository_preparation_date": "2026-10-26",
+  "native_excel_evidence": "validation/native-excel-acceptance.md",
+  "licensing_evidence": "LICENSE-STATUS.md",
+  "publication_metadata_reviewed": false,
+  "publication_metadata_evidence": "validation/publication-metadata.json"
+}

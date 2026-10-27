@@ -1,0 +1,20 @@
+{
+  "package_version": "0.1.0-review.1",
+  "review_date": "2026-10-22",
+  "files": [
+    {
+      "path": "workbooks/GL-Agent-Simulator.xlsx",
+      "source_filename": "GL-Agent-Simulator(2).xlsx",
+      "sha256": "a6505a6ef47b5c25f561c9550a1ba6ba2614bd149e1a1bf3cfc08bf510cd5dbd",
+      "size_bytes": 1117980,
+      "content_change": "none; original source bytes retained"
+    },
+    {
+      "path": "paper/GL-Agent-Paper.docx",
+      "source_filename": "GL-Agent-Paper(2).docx",
+      "sha256": "2ea7c5aac5a03345edb46e8cad93ebba970dbebadf7bc9fb5f4b784ac58d2a0d",
+      "size_bytes": 437983,
+      "content_change": "none; original source bytes retained"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "suggested_name": "gl-agent",
+  "description": "An Excel simulator and reproducible research model for the economics of AI-agent controls.",
+  "topics": [
+    "security-economics",
+    "ai-agents",
+    "gordon-loeb",
+    "research",
+    "simulation",
+    "excel"
+  ],
+  "initial_visibility": "private",
+  "has_issues": true
+}

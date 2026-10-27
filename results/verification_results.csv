@@ -1,0 +1,31 @@
+test,passed,detail
+Default continuous welfare optimum,True,1.4460338742253371
+Default continuous risk minimum,True,2.0571150029706775
+High-loss smooth extrema,True,"{'welfare_x': 2.5880289712077946, 'risk_x': 5.685049917663916, 'welfare': 729541.595516603, 'risk_at_welfare': 641056.9559230073, 'minimum_risk': 529106.1142231617, 'welfare_stationary': [2.5880289712077946], 'risk_stationary': [5.685049917663916], 'search_interval': [0, 10], 'root_scan_step': 0.001}"
+High-loss steep three stationary welfare points,True,"{'welfare_x': 2.0239203080390578, 'risk_x': 5.781680590034929, 'welfare': 792899.8399414117, 'risk_at_welfare': 605904.1446566354, 'minimum_risk': 531777.7967083376, 'welfare_stationary': [2.0239203080390578, 3.191083502470983, 4.851557948509697], 'risk_stationary': [2.098241619470995, 3.0333813296635634, 5.781680590034929], 'search_interval': [0, 10], 'root_scan_step': 0.001}"
+Early steep welfare maximum dominates later maximum,True,
+Risk derivative finite-difference agreement,True,3.449245014877238e-10
+Welfare accounting identity,True,
+Zero-risk q-only corner,True,
+Zero-productivity q-only corner,True,
+Exact q-only entry threshold,True,
+Full family nests q-only family,True,
+Bounded migration analytic minimum,True,2.1972245773362196
+Bounded welfare precedes risk minimum,True,1.6791102931625472
+Bounded initial threshold corner,True,
+Bounded migration accounting identity,True,
+Capacity crossing does not force risk reversal,True,
+Durability crossover,True,0.6194230800855416
+Zero-discount and zero-decay finite-horizon limit,True,
+Zero-efficacy durability value,True,
+Independent layer limit,True,
+Fully common layer limit,True,
+Stacking zero/one risk boundaries,True,
+Perfect refresh reset formula,True,
+Complete carry-over refresh limit,True,
+Refresh partial carry-over bounded by endpoints,True,
+500 heterogeneous exponential all-in bounds,True,0.36786773369927905
+500 heterogeneous hyperbolic all-in bounds,True,0.2492119346857802
+500 bounded migration sign cases,True,
+Invalid input rejection,True,
+Robust two-control complementarity example,True,

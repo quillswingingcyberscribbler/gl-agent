@@ -1,0 +1,150 @@
+{
+  "implementation": "independent-audit-2026-10-22",
+  "tests": 30,
+  "failed": 0,
+  "numerical_results": [
+    {
+      "scenario": "Retained default",
+      "welfare_x": 1.4460338742253371,
+      "risk_x": 2.0571150029706775,
+      "welfare": 1249569.876375508,
+      "risk_at_welfare": 178128.4299132251,
+      "minimum_risk": 164160.8200256494,
+      "welfare_stationary": [
+        1.4460338742253371
+      ],
+      "risk_stationary": [
+        2.0571150029706775
+      ],
+      "search_interval": [
+        0,
+        10
+      ],
+      "root_scan_step": 0.001
+    },
+    {
+      "scenario": "Summarization",
+      "welfare_x": 1.3492516337200067,
+      "risk_x": 1.5109061303301716,
+      "welfare": 199549.23780644318,
+      "risk_at_welfare": 353226.9550133566,
+      "minimum_risk": 350505.73613703926,
+      "welfare_stationary": [
+        1.3492516337200067
+      ],
+      "risk_stationary": [
+        1.5109061303301716
+      ],
+      "search_interval": [
+        0,
+        10
+      ],
+      "root_scan_step": 0.001
+    },
+    {
+      "scenario": "MCP DevOps",
+      "welfare_x": 6.933998393638525,
+      "risk_x": 7.83754908934748,
+      "welfare": 1685467.483636408,
+      "risk_at_welfare": 502502.5886498582,
+      "minimum_risk": 482951.08242613345,
+      "welfare_stationary": [
+        6.933998393638525
+      ],
+      "risk_stationary": [
+        7.83754908934748
+      ],
+      "search_interval": [
+        0,
+        10
+      ],
+      "root_scan_step": 0.001
+    },
+    {
+      "scenario": "Finance",
+      "welfare_x": 2.978364570857492,
+      "risk_x": 5.0893471897360865,
+      "welfare": 2489463.9986719238,
+      "risk_at_welfare": 257375.01280518968,
+      "minimum_risk": 205255.34234852216,
+      "welfare_stationary": [
+        2.978364570857492
+      ],
+      "risk_stationary": [
+        5.0893471897360865
+      ],
+      "search_interval": [
+        0,
+        10
+      ],
+      "root_scan_step": 0.001
+    },
+    {
+      "scenario": "Drafting",
+      "welfare_x": 0.0,
+      "risk_x": 0.16900248519284652,
+      "welfare": 132500.0,
+      "risk_at_welfare": 17500.0,
+      "minimum_risk": 16880.233502574738,
+      "welfare_stationary": [],
+      "risk_stationary": [
+        0.16900248519284652
+      ],
+      "search_interval": [
+        0,
+        10
+      ],
+      "root_scan_step": 0.001
+    },
+    {
+      "scenario": "High-loss / smooth",
+      "welfare_x": 2.5880289712077946,
+      "risk_x": 5.685049917663916,
+      "welfare": 729541.595516603,
+      "risk_at_welfare": 641056.9559230073,
+      "minimum_risk": 529106.1142231617,
+      "welfare_stationary": [
+        2.5880289712077946
+      ],
+      "risk_stationary": [
+        5.685049917663916
+      ],
+      "search_interval": [
+        0,
+        10
+      ],
+      "root_scan_step": 0.001
+    },
+    {
+      "scenario": "High-loss / steep",
+      "welfare_x": 2.0239203080390578,
+      "risk_x": 5.781680590034929,
+      "welfare": 792899.8399414117,
+      "risk_at_welfare": 605904.1446566354,
+      "minimum_risk": 531777.7967083376,
+      "welfare_stationary": [
+        2.0239203080390578,
+        3.191083502470983,
+        4.851557948509697
+      ],
+      "risk_stationary": [
+        2.098241619470995,
+        3.0333813296635634,
+        5.781680590034929
+      ],
+      "search_interval": [
+        0,
+        10
+      ],
+      "root_scan_step": 0.001
+    }
+  ],
+  "workbook": {
+    "comparison_count": 39251,
+    "failed_count": 0,
+    "max_scaled_difference": 1.6968542473909438e-13,
+    "worst_cell": "ScenarioCurves!J44",
+    "failures": [],
+    "scope": "Publication input/default caches, main curves and presets, durability, stacking, bounded migration. This is not Excel-engine recalculation."
+  }
+}

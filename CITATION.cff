@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this project and identify the exact workbook version used. This package is a reviewed prerelease."
+type: software
+title: "GL-Agent"
+authors:
+  - family-names: "Muhlert"
+    given-names: "Matthias"
+    orcid: "https://orcid.org/0009-0006-3640-7779"
+version: "0.1.0-review.1"
+abstract: "An Excel simulator and reproducible research model for the economics of AI-agent controls."
+keywords:
+  - "security-economics"
+  - "ai-agents"
+  - "gordon-loeb"
+  - "research"
+  - "simulation"
+  - "excel"
+license:
+  - MIT
+  - CC-BY-4.0
+preferred-citation:
+  type: unpublished
+  authors:
+    - family-names: "Muhlert"
+      given-names: "Matthias"
+      orcid: "https://orcid.org/0009-0006-3640-7779"
+  title: "GL-Agent: Security Investment under Capability Tax, Adaptive Defence, and Control Displacement"
+  year: 2026
+  month: 9
