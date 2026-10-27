@@ -116,7 +116,7 @@ Spot checks verified the existence and matching titles/authors of the 2026 paper
 
 These checks do not constitute a full literature review or verification of every attribution.
 
-The supplied inputs are explicitly synthetic. No operational incidents, credentials or confidential business records were found. The paper includes the author's contact details and ORCID as intentional publication metadata. A follow-up inspection on 26 October 2026 found Microsoft Information Protection label records in both the manuscript and the workbook. The records contain opaque label/site identifiers but no readable classification label. Check whether that metadata belongs in the public distribution rather than inferring sensitivity from its mere presence. See the [publication-metadata record](../validation/publication-metadata.json).
+The supplied inputs are explicitly synthetic. No operational incidents, credentials or confidential business records were found. The author name, ORCID and publication email address are intentionally retained in the manuscript. The publication-metadata review was completed on 27 October 2026: the Public classifications were retained, while document properties and absolute local paths were removed. The `lastModifiedBy` properties are empty. The manuscript header and page-number footers were restored; main document text and all three media files are unchanged. Simulator formulas and saved cell values match the original source. Current public-copy identities are recorded in [validation/manifest.json](../validation/manifest.json) and [validation/publication-metadata.json](../validation/publication-metadata.json).
 
 ## Validation limits
 
