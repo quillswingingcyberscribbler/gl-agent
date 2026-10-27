@@ -6,7 +6,8 @@
 
 GL-Agent explores how control intensity changes attack loss, useful capability, reviewer workload and displaced activity. It distinguishes the point that maximizes welfare from the point that minimizes realized risk, and makes the assumptions behind those results inspectable.
 
-**Status:** reviewed prerelease `0.1.0-review.1`, based on manuscript and simulator v1.0. The supplied numerical examples reproduce. The archived workbook still needs input-validation, cell-Note and drawing/chart corrections before a polished public release. See [known issues](docs/known-issues.md).
+**Status:** reviewed prerelease `0.1.0-review.1`, based on manuscript and simulator v1.0. The supplied numerical examples reproduce. The public manuscript and simulator were metadata-cleaned on 27 October 2026; the Public sensitivity labels are retained. Main text, media files, formulas and saved cell values match the original sources. The manuscript header and page-number footers were restored. The archived workbook still needs input-validation, cell-Note and drawing/chart corrections before a polished stable release. See [known issues](docs/known-issues.md).
+
 
 ## Start here
 
@@ -19,7 +20,7 @@ GL-Agent explores how control intensity changes attack loss, useful capability, 
 | Inspect the audit evidence | [Review](docs/review.md) and [machine-readable results](results/verification_summary.json) |
 | Prepare the next release | [Issues to open](docs/issues-to-open.md) |
 
-The paper and workbook are preserved as supplied, with portable filenames. All numerical presets are synthetic. Names such as “Finance” and “MCP DevOps” identify constructed scenarios, not measured sector profiles.
+The public paper and workbook are metadata-cleaned copies with portable filenames. Their current hashes and the previous source identities are documented in [validation/manifest.json](validation/manifest.json). All numerical presets are synthetic. Names such as “Finance” and “MCP DevOps” identify constructed scenarios, not measured sector profiles.
 
 ## Run the independent checks
 
@@ -61,4 +62,4 @@ The simulator and Python code use the **MIT License**. The manuscript, explanato
 
 ## Prepare publication
 
-The [browser-only publishing guide](PUBLISHING.md) covers repository creation, file upload, Actions, visibility, and prerelease creation through GitHub's web interface. Complete the [publication-metadata review](validation/publication-metadata.json) and, for a stable release, the [native Excel acceptance record](validation/native-excel-acceptance.md). These records do not replace the functional issues described above.
+The [browser-only publishing guide](PUBLISHING.md) covers repository creation, file upload, Actions, visibility, and prerelease creation through GitHub's web interface. The [publication-metadata review](validation/publication-metadata.json) is complete. For a stable release, complete the [native Excel acceptance record](validation/native-excel-acceptance.md) and address the functional workbook issues described above.
