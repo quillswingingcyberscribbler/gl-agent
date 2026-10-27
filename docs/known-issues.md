@@ -31,8 +31,12 @@ The new Python implementation is independently reconstructed. It does not claim 
 
 The audit verified saved workbook values and independently computed model results. An artifact-engine attempt to change inputs did not reliably refresh shared grid dependencies, so it is not treated as a successful Excel recalculation test. Native LibreOffice rendered the baseline. Microsoft Excel edit/recalculate/save/reopen testing remains a release check.
 
-## Publication metadata check
+## Publication metadata check — resolved
 
-A follow-up inspection on 26 October 2026 found a Microsoft Information Protection label record in both source Office files, the manuscript and the workbook. Confirm that this metadata and the intentional author contact details are appropriate for public distribution. The label/site identifiers are not reproduced in the [publication-metadata record](../validation/publication-metadata.json). Their presence alone does not establish confidentiality. If public release copies are changed, update the source hashes and rerun validation.
+The publication-metadata review was completed on 27 October 2026. The visible Public classifications were deliberately retained. Document properties and absolute local paths were removed, and the `lastModifiedBy` properties are empty. The author name, ORCID and publication email address remain intentionally present in the manuscript.
+
+The manuscript header and page-number footers were restored after Office cleanup removed them. Main document text and all three media files are unchanged. DOCX XSD and semantic checks passed; the 29-page visual review found no blank or clipped pages and no content loss. Simulator formulas and saved cell values match the original source, and all 30 independent model checks and 39,251 workbook-value comparisons pass.
+
+Current public-copy hashes are recorded in [validation/manifest.json](../validation/manifest.json), and the review decision is documented in [validation/publication-metadata.json](../validation/publication-metadata.json). Full native Excel acceptance remains a separate release requirement.
 
 See [issues to open](issues-to-open.md) for concrete fixes and acceptance criteria, and [the review](review.md) for evidence.
