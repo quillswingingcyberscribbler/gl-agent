@@ -1,5 +1,15 @@
 # Changelog
 
+## Public-copy metadata cleanup — 2026-10-27
+
+- Retained the visible Public sensitivity labels and removed document properties and absolute local paths from the public manuscript and simulator. `lastModifiedBy` is empty in both files.
+- Restored the manuscript header and page-number footers after Office cleanup removed them. Main document text and all three media files are unchanged. DOCX XSD and semantic checks passed; the 29-page visual review found no blank or clipped pages and no content loss.
+- Verified that all 10 simulator worksheets, 39,208 formulas and saved cell values match the original source. All 30 independent model checks and 39,251 workbook-value comparisons pass.
+- New manuscript SHA-256: `f20669b44e26f03c0bc0bef94799475d725920e9a9ab51043dcfe8dc86f1678d`. New simulator SHA-256: `b957da960ee9940291728e5d3a7045a5af510dd8705393709656870452f18f9e`.
+- Updated the source manifest, publication-metadata record, release status, README, publishing guide, known issues, review, reproducibility guide, validation guide and issue drafts.
+
+Formal native Excel acceptance and the documented workbook input, Note, drawing and chart issues remain open. The earlier Zenodo DOI remains a related earlier deposit and is not assigned to this reconstructed package.
+
 ## Web-publication preparation — 2026-10-26
 
 Repository-only update before the initial GitHub import. The unpublished package version and functional-review baseline remain unchanged.
