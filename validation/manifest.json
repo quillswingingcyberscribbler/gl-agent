@@ -1,20 +1,28 @@
 {
   "package_version": "0.1.0-review.1",
-  "review_date": "2026-10-22",
+  "review_date": "2026-10-27",
   "files": [
     {
       "path": "workbooks/GL-Agent-Simulator.xlsx",
       "source_filename": "GL-Agent-Simulator(2).xlsx",
-      "sha256": "a6505a6ef47b5c25f561c9550a1ba6ba2614bd149e1a1bf3cfc08bf510cd5dbd",
-      "size_bytes": 1117980,
-      "content_change": "none; original source bytes retained"
+      "public_copy_filename": "GL-Agent-Simulator.xlsx",
+      "sha256": "b957da960ee9940291728e5d3a7045a5af510dd8705393709656870452f18f9e",
+      "size_bytes": 1110778,
+      "previous_source_sha256": "a6505a6ef47b5c25f561c9550a1ba6ba2614bd149e1a1bf3cfc08bf510cd5dbd",
+      "content_change": "Publication metadata cleanup in Microsoft Excel: document properties and absolute workbook path removed; Public sensitivity label retained. All 10 worksheets, 39208 formulas, and saved cell values match the original source.",
+      "verification_date": "2026-10-27",
+      "verification": "30 independent model checks and 39251 workbook-value comparisons passed."
     },
     {
       "path": "paper/GL-Agent-Paper.docx",
       "source_filename": "GL-Agent-Paper(2).docx",
-      "sha256": "2ea7c5aac5a03345edb46e8cad93ebba970dbebadf7bc9fb5f4b784ac58d2a0d",
-      "size_bytes": 437983,
-      "content_change": "none; original source bytes retained"
+      "public_copy_filename": "GL-Agent-Paper.docx",
+      "sha256": "f20669b44e26f03c0bc0bef94799475d725920e9a9ab51043dcfe8dc86f1678d",
+      "size_bytes": 396786,
+      "previous_source_sha256": "2ea7c5aac5a03345edb46e8cad93ebba970dbebadf7bc9fb5f4b784ac58d2a0d",
+      "content_change": "Publication metadata cleanup in Microsoft Word; Public sensitivity label retained. Main document text and all 3 media files are unchanged. Header and page-number footers were restored after Office metadata cleanup removed them.",
+      "verification_date": "2026-10-27",
+      "verification": "DOCX XSD and semantic checks passed; 29-page visual render reviewed with no blank or clipped pages and no content loss."
     }
   ]
 }
