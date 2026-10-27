@@ -1,22 +1,45 @@
 {
   "schema_version": 1,
   "prepared_date": "2026-10-26",
-  "status": "review-required",
-  "source_artifacts_modified": false,
-  "scope": "Publication-metadata inventory. This is not a confidentiality determination or a native Office metadata-removal operation.",
-  "finding": "Every source Office file in this repository contains a Microsoft Information Protection label record.",
-  "confidentiality_inference": "The presence of label metadata alone does not establish that the content is confidential.",
+  "review_completed_date": "2026-10-27",
+  "status": "reviewed",
+  "source_artifacts_modified": true,
+  "scope": "Publication-metadata review and preparation of public release copies in Microsoft Word and Microsoft Excel.",
+  "finding": "Both source Office files contain Microsoft Information Protection label records. Their visible classification is Public.",
+  "decision": "Retain the Public sensitivity label. Remove document properties and absolute local paths from the public release copies. Restore the manuscript header and page-number footers after Office cleanup removed them.",
   "label_and_site_identifiers_reproduced": false,
   "files": [
     "paper/GL-Agent-Paper.docx",
     "workbooks/GL-Agent-Simulator.xlsx"
   ],
   "author_contact_details_present": true,
-  "required_action": "Review the Sensitivity setting and applicable organizational policy in the intended Office applications. Decide deliberately whether public release copies retain or remove the label. If any source artifact changes, update its manifest hash and rerun validation.",
+  "author_contact_decision": "The author name, ORCID and publication email address in the manuscript are intentional publication metadata and are retained. The lastModifiedBy properties are empty.",
+  "current_public_copies": {
+    "paper/GL-Agent-Paper.docx": {
+      "sha256": "f20669b44e26f03c0bc0bef94799475d725920e9a9ab51043dcfe8dc86f1678d",
+      "size_bytes": 396786,
+      "previous_source_sha256": "2ea7c5aac5a03345edb46e8cad93ebba970dbebadf7bc9fb5f4b784ac58d2a0d",
+      "main_text_unchanged": true,
+      "media_files_unchanged": 3,
+      "header_and_page_numbers_restored": true,
+      "visual_pages_reviewed": 29,
+      "content_loss": 0
+    },
+    "workbooks/GL-Agent-Simulator.xlsx": {
+      "sha256": "b957da960ee9940291728e5d3a7045a5af510dd8705393709656870452f18f9e",
+      "size_bytes": 1110778,
+      "previous_source_sha256": "a6505a6ef47b5c25f561c9550a1ba6ba2614bd149e1a1bf3cfc08bf510cd5dbd",
+      "worksheets_unchanged": 10,
+      "formulas_unchanged": 39208,
+      "saved_cell_values_unchanged": true,
+      "model_checks_passed": "30 independent model checks and 39251 workbook-value comparisons"
+    }
+  },
   "completion": {
-    "reviewed_by": null,
-    "review_date": null,
-    "decision": null,
-    "evidence_notes": null
-  }
+    "reviewed_by": "Matthias Muhlert",
+    "review_date": "2026-10-27",
+    "evidence_notes": "The public copies were saved, closed and reopened. DOCX XSD and semantic checks passed. The 29-page visual manuscript review found no blank or clipped pages and no content loss. Simulator formulas and saved values match the original source, and the complete independent model checker passes. Technical label/site identifiers are not reproduced in this record."
+  },
+  "native_office_metadata_cycle_completed": true,
+  "full_native_excel_acceptance_completed": false
 }
