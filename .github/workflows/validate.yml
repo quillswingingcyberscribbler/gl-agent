@@ -1,0 +1,38 @@
+name: Repository checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      require_stable_release:
+        description: Also enforce stable-release readiness
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  integrity:
+    name: Integrity and recorded model behavior
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+      - name: Check OOXML, links and original source hashes
+        run: python3 tools/validate_repository.py
+      - name: Check the independent model and saved workbook values
+        run: python3 src/gl_agent_reference.py --out local-results --check-workbook workbooks/GL-Agent-Simulator.xlsx
+      - name: Compare generated numerical evidence with the recorded baseline
+        run: |
+          for file in parameters.json numerical_results.csv curve_results.csv bounded_results.csv verification_results.csv verification_summary.json; do
+            cmp "results/$file" "local-results/$file"
+          done
+      - name: Check stable-release readiness when explicitly requested
+        if: github.event_name == 'workflow_dispatch' && inputs.require_stable_release
+        run: python3 tools/release_gate.py
